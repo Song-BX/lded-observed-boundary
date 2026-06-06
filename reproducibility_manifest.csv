@@ -1,0 +1,37 @@
+role,source_path,package_path,included,size_bytes
+processed table,analysis_outputs\tables\case_metadata.csv,tables\case_metadata.csv,True,2250
+processed table,analysis_outputs\tables\multi_condition_modeling_table.csv,tables\multi_condition_modeling_table.csv,True,237417
+processed table,analysis_outputs\tables\multi_condition_point_cloud_summary.csv,tables\multi_condition_point_cloud_summary.csv,True,56985
+processed table,analysis_outputs\tables\geometry_model_comparison.csv,tables\geometry_model_comparison.csv,True,104927
+processed table,analysis_outputs\tables\superellipsoid_parameters.csv,tables\superellipsoid_parameters.csv,True,56279
+processed table,analysis_outputs\tables\dynamics_predictions.csv,tables\dynamics_predictions.csv,True,80541
+processed table,analysis_outputs\tables\dynamics_fit_summary.csv,tables\dynamics_fit_summary.csv,True,21847
+processed table,analysis_outputs\tables\dynamics_model_comparison.csv,tables\dynamics_model_comparison.csv,True,39578
+processed table,analysis_outputs\tables\model_selection_summary.csv,tables\model_selection_summary.csv,True,2070
+processed table,analysis_outputs\tables\error_budget_summary.csv,tables\error_budget_summary.csv,True,2470
+processed table,analysis_outputs\tables\dimensionless_numbers.csv,tables\dimensionless_numbers.csv,True,13864
+processed table,analysis_outputs\tables\dimensionless_sensitivity_summary.csv,tables\dimensionless_sensitivity_summary.csv,True,1443
+processed table,analysis_outputs\tables\leave_one_condition_out_validation.csv,tables\leave_one_condition_out_validation.csv,True,35163
+processed table,analysis_outputs\tables\external_validation_case_audit.csv,tables\external_validation_case_audit.csv,True,1043
+processed table,analysis_outputs\tables\external_validation_file_audit.csv,tables\external_validation_file_audit.csv,True,7372
+processed table,analysis_outputs\tables\external_validation_modeling_table.csv,tables\external_validation_modeling_table.csv,True,80630
+processed table,analysis_outputs\tables\external_validation_geometry_model_comparison.csv,tables\external_validation_geometry_model_comparison.csv,True,35486
+processed table,analysis_outputs\tables\external_holdout_process_response_validation.csv,tables\external_holdout_process_response_validation.csv,True,13070
+processed table,analysis_outputs\tables\external_holdout_dynamics_summary.csv,tables\external_holdout_dynamics_summary.csv,True,9437
+processed table,analysis_outputs\tables\external_holdout_validation_summary.csv,tables\external_holdout_validation_summary.csv,True,1321
+processed table,analysis_outputs\tables\active_figure_manifest.csv,tables\active_figure_manifest.csv,True,13385
+processed table,analysis_outputs\tables\nomenclature_table.csv,tables\nomenclature_table.csv,True,4998
+processed table,analysis_outputs\tables\equation_inventory.csv,tables\equation_inventory.csv,True,5767
+report,analysis_outputs\reports\external_validation_data_audit.md,reports\external_validation_data_audit.md,True,2660
+report,analysis_outputs\reports\figure_captions.md,reports\figure_captions.md,True,6856
+report,analysis_outputs\reports\submission_readiness_checklist.md,reports\submission_readiness_checklist.md,True,3003
+report,analysis_outputs\reports\cover_letter_draft.md,reports\cover_letter_draft.md,True,2446
+report,analysis_outputs\reports\highlights_draft.md,reports\highlights_draft.md,True,361
+manuscript source,analysis_outputs\latex\main.tex,latex\main.tex,True,53611
+manuscript source,analysis_outputs\latex\main.pdf,latex\main.pdf,True,1032809
+manuscript source,analysis_outputs\latex\supplementary_methods.tex,latex\supplementary_methods.tex,True,25543
+manuscript source,analysis_outputs\latex\supplementary_methods.pdf,latex\supplementary_methods.pdf,True,1182657
+manuscript source,analysis_outputs\latex\references.bib,latex\references.bib,True,16288
+manuscript source,analysis_outputs\latex\latex_compile_summary.txt,latex\latex_compile_summary.txt,True,1401
+pipeline entry point,scripts\flow3d_melt_pool_pilot.py,scripts\flow3d_melt_pool_pilot.py,True,186
+pipeline package,scripts\flow3d_pipeline,scripts\flow3d_pipeline,True,635392

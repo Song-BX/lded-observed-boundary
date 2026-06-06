@@ -1,0 +1,72 @@
+symbol,name,unit,definition_or_note
+t,time,s,physical simulation time
+"x, y, z",Cartesian coordinates,m,Flow3D point-cloud coordinates
+v_c,condition-specific laser scanning speed,m/s,parsed from the raw-data condition folder
+xi,moving-frame coordinate,m,xi = x - v_c t
+Omega_m(t),molten computational domain,m3,exported molten-region point cloud
+Gamma(t),free boundary,m2,outer envelope of the molten-region point cloud
+L_f,front length,m,forward melt-pool extent in the moving frame
+L_r,rear length,m,rear melt-pool extent in the moving frame
+W,full width,m,computed as 2 max(y) from the half-domain simulation
+H,height span,m,z_max - z_min of the molten-region point cloud
+V_half,half-domain volume proxy,m3,convex-hull volume of the exported half domain
+V_full,full-domain volume proxy,m3,2 V_half by symmetry
+"a_f, a_r",front and rear semi-axes,m,asymmetric longitudinal free-boundary lengths
+b,half-width semi-axis,m,transverse semi-axis in y
+c,vertical semi-axis,m,semi-axis in z
+"xi_c, z_c",boundary center coordinates,m,moving-frame center and vertical center
+"n, m, p",superellipsoid exponents,-,shape exponents bounded during fitting
+T,temperature,K,Flow3D temperature field
+T0,initial substrate temperature,K,298 K
+T_s,solidus temperature,K,1648 K
+T_l,liquidus temperature,K,1753 K
+T_max,maximum temperature,K,maximum molten-region temperature at a time step
+G,temperature-gradient magnitude,K/m,Flow3D temperature-gradient output
+G_mean,mean temperature gradient,K/m,point-cloud average at a time step
+U,velocity magnitude,m/s,Flow3D velocity magnitude
+U_max,maximum velocity magnitude,m/s,maximum molten-region speed at a time step
+rho,density,kg/m3,temperature-dependent 316L property
+c_p,specific heat capacity,J/(kg K),temperature-dependent 316L property
+k,thermal conductivity,W/(m K),temperature-dependent 316L property
+alpha,thermal diffusivity,m2/s,alpha = k/(rho c_p)
+mu,dynamic viscosity,kg/(m s),temperature-dependent 316L property
+sigma,surface tension,N/m,corrected value 1.6 N/m
+d sigma/dT,surface-tension temperature coefficient,N/(m K),corrected magnitude 1.9e-4 N/(m K)
+P,laser power,W,750 W
+eta,laser absorptivity,-,0.35
+r_b,laser beam radius,m,0.00021 m
+m_dot_p,powder mass-flow rate,kg/s,12 g/min converted to SI units
+Pe,Peclet number,-,v L_ref/alpha
+Fo,Fourier number,-,alpha t/L_ref^2
+Ste,Stefan number,-,c_p(T_l - T_s)/L_fus
+E*,normalized heat input,-,eta P/[rho c_p v r_b^2 (T_l - T0)]
+Re,Reynolds number,-,rho v L_ref/mu
+Pr,Prandtl number,-,mu c_p/k
+Ma,Marangoni number,-,|d sigma/dT|(T_l - T_s)L_ref/(mu alpha)
+q,reduced state vector,-,"[L_f, L_r, W, H, T_max, G_mean, U_max]"
+q_inf,quasi-steady attractor state,-,training-window mean state
+k_i,diagonal relaxation rate,1/s,state-wise attractor rate
+A,coupled relaxation matrix,1/s,ridge-identified attractor matrix
+lambda,Jacobian eigenvalue,1/s,stability indicator for linearized dynamics
+Omega_s(t),solid or unmelted domain,m3,appears only in the full physical problem; not exported in the present data
+Gamma_sl(t),solid-liquid interface,m2,Stefan interface in the full physical problem
+Gamma_fs(t),free surface,m2,liquid-gas boundary with heat-loss and Marangoni conditions
+n,unit normal vector,-,outward normal on an interface
+v_n,normal interface speed,m/s,normal velocity of a phase boundary
+L_fus,latent heat of fusion,J/kg,316L fusion latent heat
+h_c,convective heat-transfer coefficient,W/(m2 K),ambient heat-loss coefficient
+epsilon_rad,radiation emissivity,-,surface radiation emissivity
+sigma_SB,Stefan-Boltzmann constant,W/(m2 K4),radiation constant in the free-surface heat-loss condition
+grad_s,surface gradient,1/m,tangential gradient operator on the free surface
+tau,viscous stress tensor,Pa,stress tensor used in the Marangoni boundary condition
+O_h,molten-region observation operator,-,maps the full physical solution to the exported molten point cloud
+Pi_M,manifold projection operator,-,projects the observed boundary onto the superellipsoid manifold
+epsilon_M,manifold projection error,m,Hausdorff-type distance from observed boundary to fitted manifold
+Phi,implicit boundary level-set function,-,equals 1 on the fitted superellipsoid boundary
+theta*,identified manifold parameter vector,-,least-squares projection of the observed boundary onto the analytic manifold
+epsilon_Gamma,boundary residual,-,root-mean-square level-set residual on boundary-envelope points
+epsilon_V,relative volume error,-,relative difference between analytic full-domain volume and mirrored convex-hull volume proxy
+lambda_R,ridge regularization strength,-,penalty coefficient used for coupled attractor identification
+rRMSE_j,relative validation RMSE,-,state-wise normalized validation error for the reduced dynamics
+delta_j,normalization floor,-,small positive value preventing division by zero in relative error metrics
+C_l,error-bound sensitivity weight,-,nonnegative weight linking each diagnostic error source to total model error
