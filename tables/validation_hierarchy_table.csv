@@ -1,0 +1,5 @@
+validation_layer,evidence,independence_scope,supported_claim,unsupported_claim
+condition_time_train_validation_split,within-condition early-time fit and later-time validation,internal to each FLOW-3D condition,short-horizon descriptive trajectory fit,independent physical-measurement support
+leave_one_condition_out_process_response,mean relative error 0.0529 over held-out condition-target predictions,A-prefixed process matrix holdout by condition,interpolation-style process-response transfer within the same export pipeline,universal L-DED process law
+same_ecosystem_cfd_holdout_cohorts,10 cases across 2 CFD holdout cohorts; process mean relative error 0.0449; dynamics mean relative RMSE 0.1137,new CFD conditions under the same FLOW-3D assumptions and preprocessing,CFD holdout transfer within the same simulation ecosystem,experimental melt-pool validation
+experimental_validation,not present in the current data-only revision,none,not applicable,agreement with measured melt-pool geometry or temperature fields

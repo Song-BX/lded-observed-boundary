@@ -1,0 +1,11 @@
+case_id,validation_cohort,source_root,power_W,scan_speed_mm_s,powder_feed_g_min,training_power_range_W,training_scan_speed_range_mm_s,training_powder_feed_range_g_min,extrapolation_flags,holdout_position,manuscript_action
+A16-550-7.5-40000,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+A17-650-8-45000,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+A18-700-8-50000,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+A19-800-7.5-40000,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+A20-950-6-65000,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+V1-450-7-45000,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,550-950,6-10,8-14,"power_W=450 outside [550,950]",extrapolation,Report V1 power extrapolation separately from same-range holdout cases.
+V2-650-8.5-55000,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+V3-750-9-50000,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+V4-850-7.5-65000,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.
+V5-900-9.5-45000,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,550-950,6-10,8-14,,within_training_feature_range,Report as same-ecosystem holdout within the training process-feature ranges.

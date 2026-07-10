@@ -1,0 +1,13 @@
+item,value,manuscript_action
+training split,first 70% of exported time steps for each condition,Report train/validation split explicitly and keep validation points out of q_inf estimation.
+quasi-steady window,"training points with t >= 0.20 s; if fewer than 3, use all training points",Define q_inf window and leakage rule.
+q_inf leakage rule,q_inf is estimated from the training segment only for each condition; validation time points are not used in q_inf estimation,State explicitly that validation trajectory errors are not helped by validation-time q_inf estimates.
+ellipsoid optimizer,"scipy.optimize.least_squares, soft_l1 loss, f_scale=0.2, max_nfev=5000","Report optimizer, robust loss and evaluation cap."
+ellipsoid bounds,positive axes >=1e-8 m; center within data span +/- 0.25 span; axes <=2.5 span,Define Theta for baseline ellipsoid fit.
+superellipsoid optimizer,"scipy.optimize.least_squares, soft_l1 loss, f_scale=0.2, max_nfev=10000","Report optimizer, robust loss and evaluation cap."
+superellipsoid bounds,positive axes >=1e-8 m; center within data span +/-0.25 span; axes <=2.5 span; exponents 1.0-6.0,Define exponent and positivity bounds for Theta.
+initialization,ellipsoid initialized from observed spans; superellipsoid initialized from fitted ellipsoid with exponents n=m=p=2,State deterministic initialization and local-minimum handling.
+local-minimum handling,single deterministic initialization per time step; failed/nonconverged fits retained with status flags and excluded from summary means through NaN-aware aggregation,Avoid implying global optimum; keep fit-status audit visible.
+dynamics baselines,"diagonal attractor, coupled ridge control, last-train persistence and independent AR(1) audit baselines","Clarify that simple baselines are diagnostic controls, not expanded mechanistic claims."
+diagonal attractor fitting,direct exponential trajectory least-squares fit; finite-difference derivatives are not used for the primary diagonal model,Avoid implying derivative-based inference for the relaxation baseline; call the model a fitted descriptive relaxation baseline.
+coupled comparison derivative handling,finite-difference dz/dt with observed Delta t and ridge regularization; reported as an overparameterization audit,Keep finite-difference derivative caveat tied to the coupled comparison rather than the selected diagonal baseline.

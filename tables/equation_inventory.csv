@@ -1,0 +1,31 @@
+equation_id,section,label,equation,role
+E1,Mathematical formulation,Moving coordinate,xi = x - vt,Defines the laser-attached frame used for geometric stationarity.
+E2,Data and preprocessing,Symmetry reconstruction,"W(t) = 2 max_{Omega_m(t)} y, V_full(t) = 2 V_half(t)",Converts the half-domain simulation into full-width and full-volume proxies.
+E3,Data and preprocessing,Reduced geometric descriptors,"L_f = max xi - xi_l, L_r = xi_l - min xi, H = z_max - z_min",Defines the free-boundary state extracted from the point-cloud envelope.
+E4,Free-boundary model,Asymmetric ellipsoid baseline,"((xi-xi_c)/a_s)^2 + (y/b)^2 + ((z-z_c)/c)^2 = 1, a_s = a_f if xi >= xi_c else a_r",Six-parameter baseline geometry.
+E5,Free-boundary model,Asymmetric superellipsoid,|((xi-xi_c)/a_s)|^n + |y/b|^m + |((z-z_c)/c)|^p = 1,Nine-parameter selected algebraic descriptor.
+E6,Free-boundary model,Superellipsoid full volume,V = 4(a_f+a_r) b c Gamma(1+1/n) Gamma(1+1/m) Gamma(1+1/p)/Gamma(1+1/n+1/m+1/p),Closed-form volume used in the geometry error calculation.
+E7,Dimensionless analysis,Heat-transport scale,rho c_p (partial T/partial t + v partial T/partial xi) = k nabla^2 T + Q,Physics-inspired balance used to motivate dimensionless groups.
+E8,Dimensionless analysis,Dimensionless groups,"Pe=vL_ref/alpha, Fo=alpha t/L_ref^2, Ste=c_p(T_l-T_s)/L_fus, E*=eta P/[rho c_p v r_b^2(T_l-T0)]",Post-processing nondimensional scale diagnostics; not solver-parameter verification.
+E9,Reduced-order dynamics,Diagonal attractor,"dq_i/dt = k_i(q_inf,i - q_i)",Selected baseline dynamics.
+E10,Reduced-order dynamics,Coupled ridge attractor,dq/dt = A(q_inf - q),Coupled negative-control diagnostic.
+E11,Stability analysis,Attractor stability criterion,Re(lambda_j(-A)) < 0,Determines local stability of the coupled linear attractor.
+E12,Error analysis,Modeling error decomposition,E_total = E_reconstruction + E_geometry + E_volume_proxy + E_dynamics + E_parameter_scale,Organizes uncertainty sources for the reduced-order modeling chain.
+E13,Low-dimensional manifold approximation,Boundary projection error,"epsilon_M(t)=inf_{theta in Theta} d_H(Gamma(t), M(theta))",Defines the Hausdorff-type projection distance from the observed boundary to the analytic manifold.
+E14,Lyapunov stability,Diagonal attractor Lyapunov function,"V(q)=1/2 ||q-q_inf||_2^2, dV/dt <= -2 k_min V",Provides the v4 exponential stability proof for the selected dynamics.
+E15,Error-budget interpretation,Semi-formal total error-budget inequality,E_total <= C1 E_reconstruction + C2 E_geometry + C3 E_volume_proxy + C4 E_dynamics + C5 E_parameter_scale,Uses sensitivity weights to interpret the diagnostic error budget without claiming a sharp worst-case bound.
+E16,Full physical problem,Moving heat equation with latent heat,rho c_p(T)(partial_t T + u dot nabla T) = nabla dot (k(T)nabla T) + Q_laser + Q_powder - rho L_fus partial_t f_l,States the high-dimensional thermal starting point before observation and reduction.
+E17,Full physical problem,Stefan condition,rho L_fus v_n = [k nabla T dot n]_s^l,Defines the phase-boundary energy balance that motivates the free-boundary viewpoint.
+E18,Full physical problem,Free-surface heat loss,-k nabla T dot n = h_c(T-T_inf)+epsilon_rad sigma_SB(T^4-T_inf^4),Represents convective and radiative heat loss from the melt-pool free surface.
+E19,Full physical problem,Marangoni shear condition,tau n dot t = (d sigma/dT) grad_s T dot t,Connects temperature gradients to tangential surface stress and boundary deformation.
+E20,Observation model,Molten-region observation operator,"P^h(t)=O_h[Omega_m(t),T,u]",Makes explicit that the data are an observation of the molten region rather than the full physical state.
+E21,Model reduction rationale,Observed-boundary modeling chain,full Stefan-Marangoni problem -> O_h -> xi-frame Gamma_h(t) -> Pi_M Gamma_h(t) -> q(t) -> dq/dt,Summarizes the observation-to-descriptor modeling chain without claiming a closed-form PDE reduction.
+E22,Model reduction rationale,First-order relaxation approximation,"dq/dt = F(q) approx J(q-q_inf), with J approx -diag(k_i)",Motivates the diagonal attractor as a first-order local model near the quasi-steady state.
+E23,Assumption audit,Regime-invariance check,"class(Pe,Ste,E*,Ma) remains unchanged under the prescribed perturbation set",Links nondimensional sensitivity to assumption robustness.
+E24,Free-boundary model,Implicit boundary level set,Phi(x;theta)=|(xi-xi_c)/a_s|^n+|y/b|^m+|(z-z_c)/c|^p,Defines the analytic boundary manifold used for projection and residual calculation.
+E25,Free-boundary model,Boundary projection objective,theta*(t)=argmin_theta N_b^{-1} sum_{x_j in Gamma_h(t)} (Phi(x_j;theta)-1)^2,Makes the superellipsoid fitting operation explicit as a constrained manifold projection.
+E26,Free-boundary model,Geometry diagnostic errors,"epsilon_Gamma=[N_b^{-1} sum(Phi(x_j;theta*)-1)^2]^{1/2}, epsilon_V=|V_M-V_full|/(V_full+delta_V)",Defines the boundary and volume errors used for model selection.
+E27,Reduced-order dynamics,Diagonal trajectory fit,"min_{q_inf,i in Q_i,k_i>=0} sum_{r in T_tr} [q_inf,i+(q_i(t_0)-q_inf,i) exp(-k_i(t_r-t_0))-q_i(t_r)]^2",States how the selected diagonal attractor state and rate are fitted directly to the training trajectory.
+E28,Reduced-order dynamics,Coupled ridge identification,A*=argmin_A sum_{r in T_tr} ||dot q_r-A(q_inf-q_r)||_2^2+lambda_R||A||_F^2,States the regularized identification problem for the coupled overparameterization check.
+E29,Model validation,State-wise validation relative RMSE,rRMSE_j = [N_val^{-1} sum_{r in T_val}(qhat_j(t_r)-q_j(t_r))^2]^{1/2}/(range(q_j)+delta_j),Defines the normalized validation metric used to compare diagonal and coupled dynamics.
+E30,Error-budget interpretation,Weighted total error-budget inequality,E_total <= C_R E_reconstruction + C_Gamma E_geometry + C_V E_volume + C_D E_dynamics + C_P E_parameter,Links the diagnostic error taxonomy to sensitivity-weighted uncertainty accounting.

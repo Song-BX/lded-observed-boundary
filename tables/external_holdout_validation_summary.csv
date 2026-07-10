@@ -1,0 +1,12 @@
+metric,value,unit,interpretation
+external_validation_case_count,10.0,cases,Same-solver FLOW-3D holdout conditions withheld from model construction.
+external_validation_cohort_count,2.0,cohorts,Number of holdout cohorts processed by the same descriptor pipeline.
+external_validation_time_step_count,120.0,condition-time steps,Total external CFD time-step exports processed by the same descriptor pipeline.
+external_superellipsoid_boundary_win_rate,1.0,fraction,Superellipsoid boundary residual improves in 10/10 external cases.
+external_superellipsoid_volume_win_rate,0.4,fraction,Superellipsoid volume proxy improves in 4/10 external cases.
+external_process_response_mean_relative_error,0.044873174773087804,relative error,Mean quasi-steady process-response error on CFD holdout cases.
+external_process_response_max_relative_error,0.3055886592909531,relative error,Largest quasi-steady process-response relative error over all external case-target pairs.
+external_process_response_worst_target_mean_relative_error,0.1011092434304523,relative error,volume_proxy_m3
+external_dynamics_mean_relative_rmse,0.11371768262028119,relative RMSE,Mean process-parameterized diagonal-attractor trajectory error on external cases.
+external_dynamics_max_relative_rmse,0.631129814886866,relative RMSE,Largest state-wise external diagonal-attractor trajectory error.
+external_dynamics_worst_state_mean_relative_rmse,0.3261134238500638,relative RMSE,Umax_m_per_s

@@ -1,0 +1,121 @@
+case_id,case_index,validation_cohort,source_root,power_W,scan_speed_mm_s,powder_feed_g_min,time_s,source_file,raw_rows,exact_dedup_rows,unique_points,Tmax_K,Umax_m_per_s,convex_hull_status,superellipsoid_fit_status
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.05,V1-450-7-45000-0.05s.csv,1560,281,274,2859.8,0.46128214663153827,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.1,V1-450-7-45000-0.1s.csv,2268,416,402,2930.3,0.506794892883699,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.15,V1-450-7-45000-0.15s.csv,2616,485,477,2599.1,0.38790075518874667,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.2,V1-450-7-45000-0.2s.csv,2652,485,473,2587.3,0.44721978064258294,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.3,V1-450-7-45000-0.3s.csv,2580,473,462,2332.2,0.5053553315054665,ok,not_converged:The maximum number of function evaluations is exceeded.
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.4,V1-450-7-45000-0.4s.csv,2532,469,461,2465.5,0.4710925224878867,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.5,V1-450-7-45000-0.5s.csv,2484,455,445,2464.9,0.3787127851023781,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.6,V1-450-7-45000-0.6s.csv,2604,471,464,2526.2,0.40610816933423044,ok,not_converged:The maximum number of function evaluations is exceeded.
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.7,V1-450-7-45000-0.7s.csv,2544,465,455,2394.3,0.4175486725379929,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.8,V1-450-7-45000-0.8s.csv,2652,469,463,2235.2,0.5666796970079305,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,0.9,V1-450-7-45000-0.9s.csv,2532,456,449,2249.4,0.48841867655117366,ok,ok
+V1-450-7-45000,1,v_prefixed_validation_holdout,validation data,450.0,7.0,9.0,1.0,V1-450-7-45000-1s.csv,2652,492,482,2332.7,0.48492153367224267,ok,ok
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.05,V2-650-8.5-55000-0.05s.csv,2352,449,444,5038.8,0.7973219939898811,ok,ok
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.1,V2-650-8.5-55000-0.1s.csv,3528,682,669,3098.9,0.5485850570112168,ok,ok
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.15,V2-650-8.5-55000-0.15s.csv,4056,757,746,3044.3,0.4623202612096943,ok,ok
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.2,V2-650-8.5-55000-0.2s.csv,4608,864,846,3633.1,0.3741418809276636,ok,ok
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.3,V2-650-8.5-55000-0.3s.csv,4428,827,817,2956.6,0.582713210459485,ok,not_converged:The maximum number of function evaluations is exceeded.
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.4,V2-650-8.5-55000-0.4s.csv,4260,787,783,2746.8,0.4274032336096675,ok,ok
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.5,V2-650-8.5-55000-0.5s.csv,4356,797,788,2696.8,0.5378889040731366,ok,not_converged:The maximum number of function evaluations is exceeded.
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.6,V2-650-8.5-55000-0.6s.csv,4344,810,796,2886.9,0.5385131320590056,ok,not_converged:The maximum number of function evaluations is exceeded.
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.7,V2-650-8.5-55000-0.7s.csv,4320,805,798,2752.4,0.493847301259205,ok,not_converged:The maximum number of function evaluations is exceeded.
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.8,V2-650-8.5-55000-0.8s.csv,4308,807,796,2669.8,0.46915684928283846,ok,ok
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,0.9,V2-650-8.5-55000-0.9s.csv,4320,824,812,2795.6,0.5684159344177465,ok,not_converged:The maximum number of function evaluations is exceeded.
+V2-650-8.5-55000,2,v_prefixed_validation_holdout,validation data,650.0,8.5,11.0,1.0,V2-650-8.5-55000-1s.csv,4320,814,799,2713.4,0.4608480782481359,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.05,V3-750-9-50000-0.05s.csv,2460,458,440,3706.8,0.4770890855326812,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.1,V3-750-9-50000-0.1s.csv,3408,646,638,3630.7,0.4202798185805381,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.15,V3-750-9-50000-0.15s.csv,4152,788,770,3473.4,0.5687844664721426,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.2,V3-750-9-50000-0.2s.csv,4620,900,883,3038.5,0.4332602053974032,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.3,V3-750-9-50000-0.3s.csv,5100,966,955,3021.7,0.50397272467962,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.4,V3-750-9-50000-0.4s.csv,5028,964,952,2842.4,0.43595712277699966,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.5,V3-750-9-50000-0.5s.csv,5160,981,975,4087.2,1.0684817413975776,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.6,V3-750-9-50000-0.6s.csv,4932,946,929,2784.0,0.6452622618682732,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.7,V3-750-9-50000-0.7s.csv,4860,914,903,3127.9,0.6429422870678208,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.8,V3-750-9-50000-0.8s.csv,4968,939,922,3003.6,0.6121067110365643,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,0.9,V3-750-9-50000-0.9s.csv,4860,914,906,3093.4,0.5080040265283337,ok,ok
+V3-750-9-50000,3,v_prefixed_validation_holdout,validation data,750.0,9.0,10.0,1.0,V3-750-9-50000-1s.csv,4692,900,888,3045.4,0.433034243690958,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.05,V4-850-7.5-65000-0.05s.csv,2580,489,478,4129.1,0.47801447242107636,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.1,V4-850-7.5-65000-0.1s.csv,4272,815,802,3577.7,0.7167526705217079,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.15,V4-850-7.5-65000-0.15s.csv,5076,968,955,3526.7,0.5427721242003867,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.2,V4-850-7.5-65000-0.2s.csv,5652,1089,1069,3648.4,0.5240022365448452,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.3,V4-850-7.5-65000-0.3s.csv,6108,1173,1156,3188.0,0.6377571174828236,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.4,V4-850-7.5-65000-0.4s.csv,5976,1150,1125,2767.8,0.5866827069072345,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.5,V4-850-7.5-65000-0.5s.csv,5772,1089,1070,2679.7,0.7530585331333813,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.6,V4-850-7.5-65000-0.6s.csv,5544,1047,1034,2686.1,0.5630631038347301,ok,not_converged:The maximum number of function evaluations is exceeded.
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.7,V4-850-7.5-65000-0.7s.csv,5616,1048,1028,2571.6,0.6291778073080774,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.8,V4-850-7.5-65000-0.8s.csv,5856,1092,1079,2964.0,0.4987880304788799,ok,ok
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,0.9,V4-850-7.5-65000-0.9s.csv,6072,1151,1135,3176.8,0.6364881972982689,ok,not_converged:The maximum number of function evaluations is exceeded.
+V4-850-7.5-65000,4,v_prefixed_validation_holdout,validation data,850.0,7.5,13.0,1.0,V4-850-7.5-65000-1s.csv,6000,1124,1109,2882.6,0.5797306104743823,ok,not_converged:The maximum number of function evaluations is exceeded.
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.05,V5-900-9.5-45000-0.05s.csv,816,140,138,5887.3,0.7458707562044513,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.1,V5-900-9.5-45000-0.1s.csv,3096,586,567,3126.2,0.4991855342023044,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.15,V5-900-9.5-45000-0.15s.csv,4008,715,700,3722.1,0.5113666232371838,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.2,V5-900-9.5-45000-0.2s.csv,4440,855,847,3219.5,0.4320309924577171,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.3,V5-900-9.5-45000-0.3s.csv,5268,999,981,3678.3,0.5192228507346339,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.4,V5-900-9.5-45000-0.4s.csv,5352,1025,1009,2953.3,0.46865508319018584,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.5,V5-900-9.5-45000-0.5s.csv,5280,990,979,3163.7,0.5069206252462016,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.6,V5-900-9.5-45000-0.6s.csv,5316,1013,995,3205.1,0.6468850064733298,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.7,V5-900-9.5-45000-0.7s.csv,5496,1057,1040,3525.9,0.4454576489005436,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.8,V5-900-9.5-45000-0.8s.csv,5292,1010,993,3023.2,0.6294781402082205,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,0.9,V5-900-9.5-45000-0.9s.csv,5184,972,959,3179.4,0.781406154826029,ok,ok
+V5-900-9.5-45000,5,v_prefixed_validation_holdout,validation data,900.0,9.5,9.0,1.0,V5-900-9.5-45000-1s.csv,3948,733,722,2941.1,0.4694693239179744,ok,ok
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.05,A16-550-7.5-40000-0.05s.csv,1716,295,287,3285.4,0.3792629844377645,ok,ok
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.1,A16-550-7.5-40000-0.1s.csv,2496,465,451,3047.0,0.3971990584979904,ok,ok
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.15,A16-550-7.5-40000-0.15s.csv,2988,554,549,2893.0,0.4141791317775438,ok,ok
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.2,A16-550-7.5-40000-0.2s.csv,3108,579,566,2729.4,0.465368738932215,ok,ok
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.3,A16-550-7.5-40000-0.3s.csv,3252,607,594,2750.1,0.4107700720597838,ok,ok
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.4,A16-550-7.5-40000-0.4s.csv,3192,577,568,2638.6,0.4882428440858094,ok,not_converged:The maximum number of function evaluations is exceeded.
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.5,A16-550-7.5-40000-0.5s.csv,3132,578,569,2504.0,0.5737265205208837,ok,not_converged:The maximum number of function evaluations is exceeded.
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.6,A16-550-7.5-40000-0.6s.csv,3108,577,569,2614.2,0.5139813296453482,ok,not_converged:The maximum number of function evaluations is exceeded.
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.7,A16-550-7.5-40000-0.7s.csv,3048,563,551,2643.8,0.9508621262985502,ok,ok
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.8,A16-550-7.5-40000-0.8s.csv,3132,591,583,2587.3,0.49286468142888873,ok,not_converged:The maximum number of function evaluations is exceeded.
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,0.9,A16-550-7.5-40000-0.9s.csv,3192,589,580,2689.1,0.6017225445336081,ok,not_converged:The maximum number of function evaluations is exceeded.
+A16-550-7.5-40000,16,a16_a20_additional_holdout,additional data,550.0,7.5,8.0,1.0,A16-550-7.5-40000-1s.csv,3144,586,574,2769.2,0.5854295273403964,ok,not_converged:The maximum number of function evaluations is exceeded.
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.05,A17-650-8-45000-0.05s.csv,2076,380,368,3489.0,0.3267831459335686,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.1,A17-650-8-45000-0.1s.csv,2928,560,549,3475.2,0.5851236643146472,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.15,A17-650-8-45000-0.15s.csv,3552,678,663,3435.5,0.5257050495867431,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.2,A17-650-8-45000-0.2s.csv,3972,745,728,2873.1,0.5077031460410699,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.3,A17-650-8-45000-0.3s.csv,4044,764,753,2828.9,0.7297526180021555,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.4,A17-650-8-45000-0.4s.csv,4128,782,776,3328.5,0.5328649558227675,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.5,A17-650-8-45000-0.5s.csv,3948,744,729,3279.3,0.6900753186428276,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.6,A17-650-8-45000-0.6s.csv,4032,759,743,2797.8,0.48286706338287355,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.7,A17-650-8-45000-0.7s.csv,3888,737,729,2842.7,0.4806811738564347,ok,ok
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.8,A17-650-8-45000-0.8s.csv,4020,762,748,2602.2,0.39513283214762096,ok,not_converged:The maximum number of function evaluations is exceeded.
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,0.9,A17-650-8-45000-0.9s.csv,3972,742,732,2716.4,0.4570184263943851,ok,not_converged:The maximum number of function evaluations is exceeded.
+A17-650-8-45000,17,a16_a20_additional_holdout,additional data,650.0,8.0,9.0,1.0,A17-650-8-45000-1s.csv,4320,800,792,2738.0,0.7929957346348087,ok,not_converged:The maximum number of function evaluations is exceeded.
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.05,A18-700-8-50000-0.05s.csv,2196,377,368,3533.9,0.37963419163473666,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.1,A18-700-8-50000-0.1s.csv,3408,631,624,3146.6,0.48427349525293034,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.15,A18-700-8-50000-0.15s.csv,4056,767,759,3214.5,0.5553363371569431,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.2,A18-700-8-50000-0.2s.csv,4452,851,838,3085.0,0.4573640055798007,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.3,A18-700-8-50000-0.3s.csv,4584,887,875,3287.1,0.5095658590054871,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.4,A18-700-8-50000-0.4s.csv,4632,877,856,2873.1,0.5263663155977973,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.5,A18-700-8-50000-0.5s.csv,4512,856,845,2650.5,0.6219610423563521,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.6,A18-700-8-50000-0.6s.csv,4416,827,817,2802.1,0.4545173771254516,ok,not_converged:The maximum number of function evaluations is exceeded.
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.7,A18-700-8-50000-0.7s.csv,4452,828,820,3149.1,0.5130361660438765,ok,not_converged:The maximum number of function evaluations is exceeded.
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.8,A18-700-8-50000-0.8s.csv,4572,848,836,2632.2,0.44616966839981403,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,0.9,A18-700-8-50000-0.9s.csv,4440,859,848,3342.6,0.6169943294715114,ok,ok
+A18-700-8-50000,18,a16_a20_additional_holdout,additional data,700.0,8.0,10.0,1.0,A18-700-8-50000-1s.csv,4416,836,829,3122.3,0.5522629327240784,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.05,A19-800-7.5-40000-0.05s.csv,2148,407,393,4326.6,0.49028815700259376,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.1,A19-800-7.5-40000-0.1s.csv,3432,649,637,3380.0,0.5017668387540273,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.15,A19-800-7.5-40000-0.15s.csv,3768,707,699,3077.1,0.4576896245940037,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.2,A19-800-7.5-40000-0.2s.csv,4212,814,796,3094.0,0.5119019394610651,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.3,A19-800-7.5-40000-0.3s.csv,4524,854,843,3030.4,0.6256410144004307,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.4,A19-800-7.5-40000-0.4s.csv,4668,898,880,3148.0,0.5668354736605676,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.5,A19-800-7.5-40000-0.5s.csv,4884,939,919,3005.7,0.4597692636845138,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.6,A19-800-7.5-40000-0.6s.csv,4800,926,910,3453.2,0.5457817434652794,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.7,A19-800-7.5-40000-0.7s.csv,4800,910,899,2985.7,0.5355825992319019,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.8,A19-800-7.5-40000-0.8s.csv,4764,894,877,3197.8,0.5030589759352277,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,0.9,A19-800-7.5-40000-0.9s.csv,4728,888,875,2892.5,0.5633710376732194,ok,ok
+A19-800-7.5-40000,19,a16_a20_additional_holdout,additional data,800.0,7.5,8.0,1.0,A19-800-7.5-40000-1s.csv,4716,914,901,3414.6,0.43124966379267404,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.05,A20-950-6-65000-0.05s.csv,384,69,62,1874.1,0.018419367005410366,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.1,A20-950-6-65000-0.1s.csv,2076,352,347,2539.6,0.22878289523913278,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.15,A20-950-6-65000-0.15s.csv,4152,802,786,3804.2,0.538658860717059,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.2,A20-950-6-65000-0.2s.csv,5184,993,977,3172.2,0.46074760942298987,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.3,A20-950-6-65000-0.3s.csv,6480,1237,1219,3373.2,0.4679726149049322,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.4,A20-950-6-65000-0.4s.csv,6744,1297,1279,2984.0,0.5205875482683003,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.5,A20-950-6-65000-0.5s.csv,6276,1180,1166,2498.5,0.5019921682068357,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.6,A20-950-6-65000-0.6s.csv,4608,798,787,3102.4,1.1614641973319713,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.7,A20-950-6-65000-0.7s.csv,5232,936,925,3012.7,0.4303299208746703,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.8,A20-950-6-65000-0.8s.csv,5724,1067,1048,3039.7,0.46665328333854034,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,0.9,A20-950-6-65000-0.9s.csv,6360,1213,1187,2967.2,0.5177631286602011,ok,ok
+A20-950-6-65000,20,a16_a20_additional_holdout,additional data,950.0,6.0,13.0,1.0,A20-950-6-65000-1s.csv,6492,1247,1220,2885.4,0.6056788025026136,ok,not_converged:The maximum number of function evaluations is exceeded.

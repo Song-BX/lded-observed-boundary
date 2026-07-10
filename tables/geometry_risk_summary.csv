@@ -1,0 +1,9 @@
+risk_item,metric,value,risk_level,manuscript_action
+implicit_boundary_residual_selection,ellipsoid_to_superellipsoid_mean_residual,0.26954 -> 0.19367,medium,"State that superellipsoid improves implicit boundary residual, not full melt-pool geometry."
+volume_proxy_mismatch,superellipsoid_volume_relative_error,1.68043,medium_high,State explicitly that the superellipsoid is not quantitatively reliable for melt-volume prediction.
+casewise_volume_support,superellipsoid_volume_wins,2/15,medium_high,Keep volume as a limitation and do not use it as a model-selection success metric.
+casewise_boundary_support,superellipsoid_boundary_wins,15/15,medium,Use this only for the narrow boundary-residual claim.
+convex_hull_extraction,boundary_method,convex hull of exported molten-region points,medium_high,Describe convex-hull overfill and concavity loss as an explicit limitation.
+point_preprocessing,raw_rows_to_unique_points,312-7140 raw rows; 50-1364 unique points,medium,Keep duplicate/collapse audit in main-text data provenance or limitation discussion.
+duplicate_rows,exact_duplicate_fraction,0.811657,medium,"Treat duplicate removal as a modeling uncertainty source, not bookkeeping."
+geometric_distance_diagnostic,normalized_superellipsoid_chamfer_distance,0.196579,medium,Use Chamfer distance as a diagnostic check rather than the primary selection rule.

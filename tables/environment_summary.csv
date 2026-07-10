@@ -1,0 +1,8 @@
+component,version,source
+python,"3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)]",C:\Users\Song\AppData\Local\Programs\Python\Python313\python.exe
+numpy,2.4.4,import numpy
+pandas,3.0.2,import pandas
+matplotlib,3.10.9,import matplotlib
+scipy,1.17.1,import scipy
+pdflatex,MiKTeX-pdfTeX 4.23 (MiKTeX 25.12),pdflatex --version
+bibtex,MiKTeX-BibTeX 4.2 (MiKTeX 25.12),bibtex --version

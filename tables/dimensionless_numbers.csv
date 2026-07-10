@@ -1,0 +1,183 @@
+case_id,symbol,value,unit,definition_or_note
+global,T_ref,1696.5,K,midpoint of solidus and liquidus
+global,rho_liquidus,6918.7423857868025,kg/m3,reference property curve value at liquidus; not solver property verification
+global,cp_liquidus,847.0,J/(kg K),reference property curve value at liquidus; not solver property verification
+global,k_liquidus,28.327628549501153,W/(m K),reference property curve value at liquidus; not solver property verification
+global,alpha_liquidus,4.83392211198555e-06,m2/s,reference-curve k/(rho cp) at liquidus
+global,mu_liquidus,0.00776039603960396,kg/(m s),reference viscosity curve value at liquidus; not solver property verification
+global,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+global,Pr,0.23203691174001592,-,mu cp / k
+A1-750-8-60000,L_ref,0.002241558888888889,m,case-wise quasi-steady mean melt-pool length
+A1-750-8-60000,Pe,3.709714533183756,-,v L_ref / alpha
+A1-750-8-60000,Fo_final,0.9620537630771471,-,alpha t_final / L_ref^2
+A1-750-8-60000,E_star,1.7702965993264423,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A1-750-8-60000,Re,15.987605184731466,-,rho v L_ref / mu
+A1-750-8-60000,Ma,404.68792841266446,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A1-750-8-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A1-750-8-60000,absorbed_laser_power,75.0,W,eta*P
+A1-750-8-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A1-750-8-60000,Pr,0.23203691174001592,-,mu cp / k
+A2-550-8-60000,L_ref,0.0018739355555555555,m,case-wise quasi-steady mean melt-pool length
+A2-550-8-60000,Pe,3.1013086469212148,-,v L_ref / alpha
+A2-550-8-60000,Fo_final,1.3765447851339436,-,alpha t_final / L_ref^2
+A2-550-8-60000,E_star,1.2982175061727244,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A2-550-8-60000,Re,13.365583189609302,-,rho v L_ref / mu
+A2-550-8-60000,Ma,338.31772241884835,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A2-550-8-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A2-550-8-60000,absorbed_laser_power,55.0,W,eta*P
+A2-550-8-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A2-550-8-60000,Pr,0.23203691174001592,-,mu cp / k
+A3-950-8-60000,L_ref,0.0023324144444444445,m,case-wise quasi-steady mean melt-pool length
+A3-950-8-60000,Pe,3.8600778256832893,-,v L_ref / alpha
+A3-950-8-60000,Fo_final,0.8885629563643894,-,alpha t_final / L_ref^2
+A3-950-8-60000,E_star,2.2423756924801603,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A3-950-8-60000,Re,16.63561972419408,-,rho v L_ref / mu
+A3-950-8-60000,Ma,421.0908642198897,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A3-950-8-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A3-950-8-60000,absorbed_laser_power,95.0,W,eta*P
+A3-950-8-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A3-950-8-60000,Pr,0.23203691174001592,-,mu cp / k
+A4-750-6-60000,L_ref,0.0019696277777777778,m,case-wise quasi-steady mean melt-pool length
+A4-750-6-60000,Pe,2.4447573611839766,-,v L_ref / alpha
+A4-750-6-60000,Fo_final,1.2460381157640872,-,alpha t_final / L_ref^2
+A4-750-6-60000,E_star,2.36039546576859,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A4-750-6-60000,Re,10.536070933072867,-,rho v L_ref / mu
+A4-750-6-60000,Ma,355.5938633082413,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A4-750-6-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A4-750-6-60000,absorbed_laser_power,75.0,W,eta*P
+A4-750-6-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A4-750-6-60000,Pr,0.23203691174001592,-,mu cp / k
+A5-750-10-60000,L_ref,0.0021054544444444444,m,case-wise quasi-steady mean melt-pool length
+A5-750-10-60000,Pe,4.355582062905068,-,v L_ref / alpha
+A5-750-10-60000,Fo_final,1.0904555075161606,-,alpha t_final / L_ref^2
+A5-750-10-60000,E_star,1.416237279461154,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A5-750-10-60000,Re,18.77107409438912,-,rho v L_ref / mu
+A5-750-10-60000,Ma,380.11582105336095,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A5-750-10-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A5-750-10-60000,absorbed_laser_power,75.0,W,eta*P
+A5-750-10-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A5-750-10-60000,Pr,0.23203691174001592,-,mu cp / k
+A6-750-8-40000,L_ref,0.0019233188888888887,m,case-wise quasi-steady mean melt-pool length
+A6-750-8-40000,Pe,3.1830366221583644,-,v L_ref / alpha
+A6-750-8-40000,Fo_final,1.3067636785732997,-,alpha t_final / L_ref^2
+A6-750-8-40000,E_star,1.7702965993264423,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A6-750-8-40000,Re,13.717802905965126,-,rho v L_ref / mu
+A6-750-8-40000,Ma,347.23332082843774,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A6-750-8-40000,powder_heating_power_proxy,68.5055,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A6-750-8-40000,absorbed_laser_power,75.0,W,eta*P
+A6-750-8-40000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A6-750-8-40000,Pr,0.23203691174001592,-,mu cp / k
+A7-750-8-70000,L_ref,0.002319611111111111,m,case-wise quasi-steady mean melt-pool length
+A7-750-8-70000,Pe,3.838888682727778,-,v L_ref / alpha
+A7-750-8-70000,Fo_final,0.898399057540285,-,alpha t_final / L_ref^2
+A7-750-8-70000,E_star,1.7702965993264423,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A7-750-8-70000,Re,16.544301740358588,-,rho v L_ref / mu
+A7-750-8-70000,Ma,418.77936820293166,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A7-750-8-70000,powder_heating_power_proxy,119.88462499999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A7-750-8-70000,absorbed_laser_power,75.0,W,eta*P
+A7-750-8-70000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A7-750-8-70000,Pr,0.23203691174001592,-,mu cp / k
+A8-550-6-60000,L_ref,0.0016179233333333334,m,case-wise quasi-steady mean melt-pool length
+A8-550-6-60000,Pe,2.008211918833048,-,v L_ref / alpha
+A8-550-6-60000,Fo_final,1.8466465190822114,-,alpha t_final / L_ref^2
+A8-550-6-60000,E_star,1.730956674896966,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A8-550-6-60000,Re,8.654708872712176,-,rho v L_ref / mu
+A8-550-6-60000,Ma,292.0976314040683,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A8-550-6-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A8-550-6-60000,absorbed_laser_power,55.0,W,eta*P
+A8-550-6-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A8-550-6-60000,Pr,0.23203691174001592,-,mu cp / k
+A9-550-10-60000,L_ref,0.0018754666666666664,m,case-wise quasi-steady mean melt-pool length
+A9-550-10-60000,Pe,3.8798032388989245,-,v L_ref / alpha
+A9-550-10-60000,Fo_final,1.3742981094406945,-,alpha t_final / L_ref^2
+A9-550-10-60000,E_star,1.0385740049381795,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A9-550-10-60000,Re,16.72062953176183,-,rho v L_ref / mu
+A9-550-10-60000,Ma,338.59414709222926,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A9-550-10-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A9-550-10-60000,absorbed_laser_power,55.0,W,eta*P
+A9-550-10-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A9-550-10-60000,Pr,0.23203691174001592,-,mu cp / k
+A10-550-8-40000,L_ref,0.0016976966666666664,m,case-wise quasi-steady mean melt-pool length
+A10-550-8-40000,Pe,2.8096384299735138,-,v L_ref / alpha
+A10-550-8-40000,Fo_final,1.6771791567504017,-,alpha t_final / L_ref^2
+A10-550-8-40000,E_star,1.2982175061727244,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A10-550-8-40000,Re,12.108583970129512,-,rho v L_ref / mu
+A10-550-8-40000,Ma,306.49979820381805,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A10-550-8-40000,powder_heating_power_proxy,68.5055,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A10-550-8-40000,absorbed_laser_power,55.0,W,eta*P
+A10-550-8-40000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A10-550-8-40000,Pr,0.23203691174001592,-,mu cp / k
+A11-550-8-70000,L_ref,0.0018950155555555554,m,case-wise quasi-steady mean melt-pool length
+A11-550-8-70000,Pe,3.1361954316258878,-,v L_ref / alpha
+A11-550-8-70000,Fo_final,1.3460899749173372,-,alpha t_final / L_ref^2
+A11-550-8-70000,E_star,1.2982175061727244,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A11-550-8-70000,Re,13.515933340553225,-,rho v L_ref / mu
+A11-550-8-70000,Ma,342.1234763400258,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A11-550-8-70000,powder_heating_power_proxy,119.88462499999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A11-550-8-70000,absorbed_laser_power,55.0,W,eta*P
+A11-550-8-70000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A11-550-8-70000,Pr,0.23203691174001592,-,mu cp / k
+A12-950-6-60000,L_ref,0.002150412222222222,m,case-wise quasi-steady mean melt-pool length
+A12-950-6-60000,Pe,2.669152095219341,-,v L_ref / alpha
+A12-950-6-60000,Fo_final,1.045336726215894,-,alpha t_final / L_ref^2
+A12-950-6-60000,E_star,2.989834256640214,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A12-950-6-60000,Re,11.5031357519961,-,rho v L_ref / mu
+A12-950-6-60000,Ma,388.23243580977464,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A12-950-6-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A12-950-6-60000,absorbed_laser_power,95.0,W,eta*P
+A12-950-6-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A12-950-6-60000,Pr,0.23203691174001592,-,mu cp / k
+A13-950-10-60000,L_ref,0.0022238444444444443,m,case-wise quasi-steady mean melt-pool length
+A13-950-10-60000,Pe,4.6004970558596625,-,v L_ref / alpha
+A13-950-10-60000,Fo_final,0.9774416420011013,-,alpha t_final / L_ref^2
+A13-950-10-60000,E_star,1.7939005539841284,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A13-950-10-60000,Re,19.826574234940068,-,rho v L_ref / mu
+A13-950-10-60000,Ma,401.48978721693754,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A13-950-10-60000,powder_heating_power_proxy,102.75824999999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A13-950-10-60000,absorbed_laser_power,95.0,W,eta*P
+A13-950-10-60000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A13-950-10-60000,Pr,0.23203691174001592,-,mu cp / k
+A14-950-8-40000,L_ref,0.0020748066666666665,m,case-wise quasi-steady mean melt-pool length
+A14-950-8-40000,Pe,3.433744472667033,-,v L_ref / alpha
+A14-950-8-40000,Fo_final,1.1229085247678166,-,alpha t_final / L_ref^2
+A14-950-8-40000,E_star,2.2423756924801603,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A14-950-8-40000,Re,14.798268288083177,-,rho v L_ref / mu
+A14-950-8-40000,Ma,374.582713821238,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A14-950-8-40000,powder_heating_power_proxy,68.5055,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A14-950-8-40000,absorbed_laser_power,95.0,W,eta*P
+A14-950-8-40000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A14-950-8-40000,Pr,0.23203691174001592,-,mu cp / k
+A15-950-8-70000,L_ref,0.0024298622222222225,m,case-wise quasi-steady mean melt-pool length
+A15-950-8-70000,Pe,4.021351053542976,-,v L_ref / alpha
+A15-950-8-70000,Fo_final,0.8187217925038943,-,alpha t_final / L_ref^2
+A15-950-8-70000,E_star,2.2423756924801603,-,eta P / [rho cp v rb^2 (T_liquidus - T0)]
+A15-950-8-70000,Re,17.330652366416036,-,rho v L_ref / mu
+A15-950-8-70000,Ma,438.68395067092405,-,uses corrected surface-tension temperature coefficient magnitude |d sigma/dT|
+A15-950-8-70000,powder_heating_power_proxy,119.88462499999999,W,capture_efficiency*m_dot*[cp(Tl-Tpowder)+Lf]
+A15-950-8-70000,absorbed_laser_power,95.0,W,eta*P
+A15-950-8-70000,Ste,0.0854034715583174,-,cp (T_liquidus - T_solidus) / latent_heat_fusion
+A15-950-8-70000,Pr,0.23203691174001592,-,mu cp / k
+summary,L_ref,0.0020487299259259258,m,mean across conditions
+summary_min,L_ref,0.0016179233333333334,m,minimum across conditions
+summary_max,L_ref,0.0024298622222222225,m,maximum across conditions
+summary,Pe,3.403463962092255,-,mean across conditions
+summary_min,Pe,2.008211918833048,-,minimum across conditions
+summary_max,Pe,4.6004970558596625,-,maximum across conditions
+summary,Fo_final,1.198496020643244,-,mean across conditions
+summary_min,Fo_final,0.8187217925038943,-,minimum across conditions
+summary_max,Fo_final,1.8466465190822114,-,maximum across conditions
+summary,E_star,1.817504508641814,-,mean across conditions
+summary_min,E_star,1.0385740049381795,-,minimum across conditions
+summary_max,E_star,2.989834256640214,-,maximum across conditions
+summary,Re,14.667769608594178,-,mean across conditions
+summary_min,Re,8.654708872712176,-,minimum across conditions
+summary_max,Re,19.826574234940068,-,maximum across conditions
+summary,Ma,369.87485526689267,-,mean across conditions
+summary_min,Ma,292.0976314040683,-,minimum across conditions
+summary_max,Ma,438.68395067092405,-,maximum across conditions
+summary,Ste,0.0854034715583174,-,mean across conditions
+summary_min,Ste,0.0854034715583174,-,minimum across conditions
+summary_max,Ste,0.0854034715583174,-,maximum across conditions
+summary,Pr,0.2320369117400159,-,mean across conditions
+summary_min,Pr,0.23203691174001592,-,minimum across conditions
+summary_max,Pr,0.23203691174001592,-,maximum across conditions
