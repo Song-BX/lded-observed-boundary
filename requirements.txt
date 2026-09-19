@@ -1,0 +1,7 @@
+# Runtime dependencies for scripts/flow3d_pipeline/core.py
+# Python 3.10+ is required; Python 3.11 is recommended.
+numpy>=1.26,<3
+pandas>=2.1,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+Pillow>=10,<12
